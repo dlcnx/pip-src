@@ -9,7 +9,7 @@
 
 ### windows版本
 
-下载 [exe程序][https://github.com/dlcnx/pip-src/releases] 运行或直接运行 [py源码][https://github.com/dlcnx/pip-src/releases/download/v1.0/pipsrc_win.py]
+下载exe程序运行或直接运行py源码
 
 根据提示生成配置文件
 
