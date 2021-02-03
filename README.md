@@ -19,7 +19,9 @@
 
 ### linux版本
 
-(由于我木有linux环境，没法给linux打包)
+linux版是ubuntu64位打包的
+
+(不过我仍然推荐下载py源码使用)
 
 直接下载linux版本源码
 
