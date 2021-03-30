@@ -25,6 +25,4 @@ linux版是ubuntu64位打包的
 
 直接下载linux版本源码
 
-使用python运行按提示即可为当前用户pip换源
-
-(linux下换源是一键完成的，挺方便)
+使用python在用户文件夹运行可为指定用户pip换源

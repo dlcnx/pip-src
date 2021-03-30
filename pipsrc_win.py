@@ -17,8 +17,8 @@ def Select_src():
         else:
             return custom_src
     # 正确选择了数字
-    elif n in [str(j+1) for j in range(len(src))]:
-        return src[int(n)-1]
+    elif n in [str(j + 1) for j in range(len(src))]:
+        return src[int(n) - 1]
     # 选择不在范围内
     else:
         print("输入值不在范围内，请重新输入")

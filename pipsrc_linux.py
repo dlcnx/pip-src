@@ -30,8 +30,6 @@ def pip(s):
     # 生成源的内容
     l = re.search('(?<=//).*?(?=/)', s)
     content_src = "[global]\nindex-url = " + s + "\n[install]\ntrusted-host = " + l.group() + "\n"
-    # 进入用户文件夹
-    os.system("cd ~")
     # 文件夹创建
     try:
         os.mkdir(".pip")
@@ -59,10 +57,10 @@ def pip(s):
             with open(".pip/pip.conf", "w") as f:
                 f.write(content_src)
         # 创建结束
-        print("\n成功创建文件，当前用户pip换源成功！\n")
+        print("\n成功创建文件!\n")
 
     except OSError:
-        print("\n文件修改失败，请检查pip文件夹异常!\n")
+        print("\n文件修改失败，请检查文件夹异常!\n")
 
 
 # 源与对应的描述
@@ -74,7 +72,7 @@ src = ["https://pypi.tuna.tsinghua.edu.cn/simple/",
 detail = ["清华", "阿里", "中科大", "华科大", "豆瓣"]
 
 # 初始化完毕，程序起始
-print("-----pip换源器-----\n适用于linux下pip换源\n可为当前使用的用户换源\n")
+print("-----pip换源器-----\n适用于linux下pip换源\n在用户文件夹内运行可为指定用户换源")
 
 # 列出可选的源
 print("-------可选的源-------")
