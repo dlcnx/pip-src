@@ -19,10 +19,6 @@
 
 ### linux版本
 
-linux版是ubuntu64位打包的
-
-(不过我仍然推荐下载py源码使用)
-
 直接下载linux版本源码
 
 使用python在用户文件夹运行可为指定用户pip换源
